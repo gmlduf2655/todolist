@@ -9,7 +9,12 @@ ul{
 }
 h1{
 	font-size: 50px;
+	text-align:center;
 }
+dir{
+	padding-left: 0px;
+}
+
 .todolist{
 	list-style-type:none;
 	font-size: 30px;
@@ -22,9 +27,15 @@ h1{
 	flex-direction:column;
 	text-align : center;
 	padding-left : 0px;
-	width : 540px;
-	height : 540px;
-	margin: 0 auto;
+
+}
+
+#menu2{
+	border: 2px solid black;
+	border-radius:10px;
+	width: 500px;
+	
+	text-align:center;
 }
 
 #input-content{
@@ -36,8 +47,15 @@ h1{
 }
 #input-content-submit{
 	height : 50px;
-	font-size : 30px;
+	font-size : 20px;
 	background-color: transparent;	
 	border:2px solid black;
 	border-radius: 10px;
+}
+
+#todomenu{
+	display:flex;
+	justify-content:space-around;
+	height : 1080px;
+	margin:0 auto;	
 }
