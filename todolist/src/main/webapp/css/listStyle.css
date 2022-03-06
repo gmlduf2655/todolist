@@ -1,0 +1,43 @@
+a{
+	text-decoration: none;
+}
+body{
+	background-image: url("../img/0.jpg");
+}
+ul{
+	list-style-type:none;
+}
+h1{
+	font-size: 50px;
+}
+.todolist{
+	list-style-type:none;
+	font-size: 30px;
+}
+
+#context{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction:column;
+	text-align : center;
+	padding-left : 0px;
+	width : 540px;
+	height : 540px;
+	margin: 0 auto;
+}
+
+#input-content{
+	height : 50px;
+	font-size : 30px;
+	background-color: transparent;
+	border:none;
+	border-bottom: 2px solid black;
+}
+#input-content-submit{
+	height : 50px;
+	font-size : 30px;
+	background-color: transparent;	
+	border:2px solid black;
+	border-radius: 10px;
+}
